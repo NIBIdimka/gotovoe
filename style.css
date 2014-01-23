@@ -1,0 +1,75 @@
+*{
+margin : 0;
+padding: 0;
+}
+
+ul{
+min-width: 900px;
+list-style: none;
+width: 100%;
+}
+li{
+float: left;
+wigth: 125px;
+max-height: 125px;
+font: 20px "Times New Roman",serif;
+text-align: center;
+overflow: hidden;
+}
+li+li{ 
+margin-left: 25px;
+}
+
+li figcaption{
+margin-top: center;
+display: block;
+
+}
+.hidden{
+displey: inline-block;
+width: 25px
+heigth: 25px;
+}
+
+
+.chr{
+color: lime;
+}
+.chr span{
+color: red;
+}
+.chr span+span{
+color: gold;
+}
+.fox{
+color: orange;
+}
+.Opera{
+color: darkred;
+}
+.safari{
+color: DarkSlateGray;
+}
+.Yandex{
+color: red;
+}
+.Yandex span{
+color: black;
+}
+.ie{
+color: blue;
+float: right;
+}
+.ie figcaption{
+margin-top: center;
+}
+
+
+
+
+
+
+
+
+
+
